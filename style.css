@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Регулируйте отступы по вашему желанию */
+    background-color: #333; /* Цвет фона заголовка */
+}
+
+.logo img {
+    max-height: 50px; /* Регулируйте размер логотипа по вашему желанию */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px; /* Регулируйте отступы между кнопками по вашему желанию */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Цвет текста кнопок */
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+body {
+    background-color: #333; /* Цвет фона страницы */
+    margin: 0; /* Убираем внешние отступы у body */
+    padding: 0; /* Убираем внутренние отступы у body */
+}
+.main-info {
+    background-color: #696969; /* Светло-серый фон */
+    padding: 20px;
+    text-align: center; /* Центрируем текст по горизонтали */
+    margin: 0 auto; /* Центрируем блок по центру экрана */
+    max-width: 800px; /* Ширина блока, чтобы не был слишком широким на больших экранах */
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: white
+}
+.our-ip-container {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    position: relative;
+}
+.our-ip-text-wrapper {
+    background-color: #696969;
+    border-radius: 5px ;
+    display: inline-block;
+    padding: 4px 5px 5px;
+    font-family: sans-serif;
+}
+.our-ip-text {
+    padding: 5px 20px 0;
+    background-color: #696969;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    font-family: sans-serif;
+    color: white;
+}
+.our-ip-wrapper {
+    background-color: #333333;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-top: 0px;
+}
+.our-ip {
+    background-color: #333333;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+}
+.server-online-wrapper {
+    background-color: #333333;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.server-online-wrapper div {
+    background-color: #333333;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
